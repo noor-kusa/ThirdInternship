@@ -23,6 +23,7 @@ def threeSum(nums):
                 while left < right and nums[right] == nums[right + 1]:
                     right -= 1
                     
+                    
             elif total < 0:
                 left += 1
             else:
